@@ -27,8 +27,8 @@ def end_game(total)
 end
 
 def initial_round
-  cards = 0
-  2.times do 
+  cards = 2
+  while cards > 0 do 
     cards += deal_card
   end
   display_card_total(cards)
