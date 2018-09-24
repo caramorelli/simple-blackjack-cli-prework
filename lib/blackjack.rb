@@ -19,7 +19,7 @@ def get_user_input
   prompt_user
   input = gets.chomp
   if input != 'h' || input != 's' || input != 'exit'
-    
+    invalid_command
   end 
 end
 
@@ -44,8 +44,7 @@ def hit?
 end
 
 def invalid_command
-  # code invalid_command here
-  
+  puts 'Sorry what you entered is invalid. Please try again.'
 end
 
 #####################################################
