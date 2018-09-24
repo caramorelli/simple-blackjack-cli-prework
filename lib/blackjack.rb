@@ -33,6 +33,7 @@ def initial_round
     count += deal_card
     cards -= 1
   end
+  puts count
   display_card_total(count)
 end
 
