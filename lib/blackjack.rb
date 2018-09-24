@@ -45,6 +45,7 @@ end
 
 def invalid_command
   puts 'Sorry what you entered is invalid. Please try again.'
+  get_user_input
 end
 
 #####################################################
