@@ -53,11 +53,17 @@ end
 
 def runner
   welcome
-  initial_round 
+  initial_round
   until sum > 21
     sum += hit? 
-    display_card_total
+    display_card_tota(sum)
   end 
   end_game
 end
+
+it "calls on the #welcome method, 
+  then on the #initial_round method, 
+  then calls #hit? and #display_card_total methods
+  -until- the card sum is greater than 21,
+  then calls on the #end_game method"
     
