@@ -30,7 +30,8 @@ def initial_round
   cards = 0
   2.times do 
     cards += deal_card
-  display_card_total(card1 + card2)
+  end
+  display_card_total(cards)
 end
 
 def hit?
