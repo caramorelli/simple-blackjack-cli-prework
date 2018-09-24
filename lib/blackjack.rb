@@ -18,6 +18,7 @@ end
 def get_user_input
   prompt_user
   input = gets.chomp
+  if input != 'h' || input != 's' || input != 'exit'
 end
 
 def end_game(total)
