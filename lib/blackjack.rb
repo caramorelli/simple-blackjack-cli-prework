@@ -27,7 +27,6 @@ def end_game(total)
 end
 
 def initial_round
-  # code #initial_round here
   first_two = 0
   2.times do 
     first_two += deal_card
@@ -36,7 +35,6 @@ def initial_round
 end
 
 def hit?
-  # code hit? here
   prompt_user
   sum = []
   sum << get_user_input
@@ -55,7 +53,6 @@ end
 #####################################################
 
 def runner
-  # code runner here
   welcome
   sum = initial_round 
   until sum > 21
