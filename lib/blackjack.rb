@@ -27,21 +27,17 @@ def end_game(total)
 end
 
 def initial_round
-  first_two = 0
-  2.times do 
-    first_two += deal_card
-  end 
-  display_card_total(first_two)
+  card1 = deal_card
+  card2 = deal_card
+  card1 + card2
 end
 
 def hit?
   prompt_user
-  sum = []
-  sum << get_user_input
+  get_user_input
   if action == 'h'
     deal_card 
   end 
-  return sum.inject(:+)
 end
 
 def invalid_command
