@@ -36,11 +36,10 @@ end
 
 def hit?
   prompt_user
-  get_user_input
+  input = get_user_input
+  if input == 'h'
   
-  # if action == 'h'
-  #   deal_card 
-  # end 
+  
 end
 
 def invalid_command
