@@ -22,7 +22,7 @@ end
 
 def end_game(total)
   if total > 21 
-    "Sorry, you hit 27. Thanks for playing!"
+    puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
 def initial_round
