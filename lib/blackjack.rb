@@ -33,7 +33,6 @@ def initial_round
   end
   display_card_total(total_count)
 end
-initial_round
 
 def hit?
   prompt_user
