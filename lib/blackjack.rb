@@ -37,6 +37,7 @@ def initial_round
   puts count
   display_card_total(count)
 end
+initial_round
 
 def hit?
   prompt_user
