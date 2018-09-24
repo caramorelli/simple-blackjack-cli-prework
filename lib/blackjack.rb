@@ -28,8 +28,10 @@ end
 
 def initial_round
   cards = 2
-  while cards > 0 do 
-    cards += deal_card
+  count = 0
+  while cards > 0  
+    
+    cards -= 1
   end
   display_card_total(cards)
 end
