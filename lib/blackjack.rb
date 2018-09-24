@@ -31,7 +31,7 @@ def initial_round
   2.times do 
     total_count += deal_card
   end
-  puts display_card_total(total_count)
+  display_card_total(total_count)
 end
 initial_round
 
