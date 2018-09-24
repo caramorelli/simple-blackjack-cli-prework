@@ -29,7 +29,7 @@ end
 def initial_round
   card1 = deal_card
   card2 = deal_card
-  puts card1 + card2
+  puts display_card_total(card1 + card2)
   2.times do 
     display_card_total(deal_card)
   end
