@@ -30,7 +30,7 @@ def initial_round
   cards = 2
   count = 0
   while cards > 0  
-    count += deal_card
+    puts deal_card
     puts count 'hi'
     cards -= 1
   end
