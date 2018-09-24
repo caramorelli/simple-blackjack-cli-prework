@@ -33,7 +33,7 @@ def initial_round
     count += deal_card
     cards -= 1
   end
-  display_card_total(cards)
+  display_card_total(count)
 end
 
 def hit?
