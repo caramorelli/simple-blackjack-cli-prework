@@ -36,7 +36,7 @@ end
 
 def hit?
   prompt_user
-  # get_user_input
+  get_user_input
   # if action == 'h'
   #   deal_card 
   # end 
