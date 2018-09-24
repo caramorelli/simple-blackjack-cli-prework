@@ -54,7 +54,7 @@ end
 def runner
   welcome
   initial_round
-  until sum > 21
+  until sum > 21 
     sum += hit? 
     display_card_tota(sum)
   end 
